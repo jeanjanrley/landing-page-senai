@@ -1,40 +1,37 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.scss'
-import Logo from "../assets/logo_icon.svg";
-import LogoWhite from "../assets/logo_icon_white.svg";
-import Swords from "../assets/swords.svg";
+import Logo from "../public/logo_icon.svg";
+import LogoWhite from "../public/logo_icon_white.svg";
+import Swords from "../public/swords.svg";
 import { FaSearch } from "react-icons/fa";
 import { FiFacebook, FiInstagram, FiShoppingBag, FiTwitter } from "react-icons/fi";
-import Rectangle1 from "../assets/rectangle1.png"
-import Rectangle2 from "../assets/rectangle2.png"
-import Rectangle3 from "../assets/rectangle3.png"
+import Rectangle1 from "../public/rectangle1.png"
+import Rectangle2 from "../public/rectangle2.png"
+import Rectangle3 from "../public/rectangle3.png"
 import { CardItem } from './components/CardItem';
-import ThirdImage1 from "../assets/third-section1.png";
-import ThirdImage2 from "../assets/third-section2.png";
-import ThirdImage3 from "../assets/third-section3.png";
-import ThirdImage4 from "../assets/third-section4.png";
-import firstGroupImage1 from "../assets/first-group1.png";
-import firstGroupImage2 from "../assets/first-group2.png";
-import firstGroupImage3 from "../assets/first-group3.png";
-import firstGroupImage4 from "../assets/first-group4.png";
-import SecondGroupImage1 from "../assets/second-group1.png";
-import SecondGroupImage2 from "../assets/second-group2.png";
-import SecondGroupImage3 from "../assets/second-group3.png";
-import SecondGroupImage4 from "../assets/second-group4.png";
-import ImageRound1 from "../assets/image-round1.png";
-import ImageRound2 from "../assets/image-round2.png";
-import ImageRound3 from "../assets/image-round3.png";
-import ImageRound4 from "../assets/image-round4.png";
-import ImageRound5 from "../assets/image-round5.png";
-import ImageRound6 from "../assets/image-round6.png";
+import ThirdImage1 from "../public/third-section1.png";
+import ThirdImage2 from "../public/third-section2.png";
+import ThirdImage3 from "../public/third-section3.png";
+import ThirdImage4 from "../public/third-section4.png";
+import firstGroupImage1 from "../public/first-group1.png";
+import firstGroupImage2 from "../public/first-group2.png";
+import firstGroupImage3 from "../public/first-group3.png";
+import firstGroupImage4 from "../public/first-group4.png";
+import SecondGroupImage1 from "../public/second-group1.png";
+import SecondGroupImage2 from "../public/second-group2.png";
+import SecondGroupImage3 from "../public/second-group3.png";
+import SecondGroupImage4 from "../public/second-group4.png";
+import ImageRound1 from "../public/image-round1.png";
+import ImageRound2 from "../public/image-round2.png";
+import ImageRound3 from "../public/image-round3.png";
+import ImageRound4 from "../public/image-round4.png";
+import ImageRound5 from "../public/image-round5.png";
+import ImageRound6 from "../public/image-round6.png";
 import { CardLocal } from './components/CardLocal';
 import { ImageRound } from './components/ImageRound';
 
 
 function App() {
-	const [count, setCount] = useState(0)
-
 	return (
 		<div className="App">
 			<header>
