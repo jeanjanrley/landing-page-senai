@@ -1,0 +1,59 @@
+.container-item {
+	display: flex;
+	flex-direction: column;
+	background: #F8F8F8;
+	border-radius: 12px;
+	padding: 24px;
+	width: 100%;
+	max-width: 375px;
+	gap: 16px;
+	height: 100%;
+	max-height: 420px;
+
+	&:hover {
+		outline: 1px solid #FC8019;
+	}
+
+	img {
+		width: 100%;
+		max-width: 100%;
+		transition: all 0.3s ease-in-out;
+
+
+		&:hover {
+			scale: 1.05;
+			rotate: 1.5deg;
+		}
+	}
+
+	>h2 {
+		font-size: 1.1rem;
+		font-weight: 500;
+	}
+
+	>p {
+		color: #808080;
+		font-size: 1rem;
+		font-weight: 500;
+	}
+
+	.value-and-time {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+
+		.item-box {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			gap: 4px;
+
+			>p {
+				color: #202020;
+				font-weight: 500;
+				font-size: 0.8rem;
+			}
+		}
+	}
+}
